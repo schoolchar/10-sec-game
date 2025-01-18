@@ -21,10 +21,6 @@ public class targetCount : MonoBehaviour
     {
         int value = target.targetCount;
         count = value;
-        if (count == 01);
-        {
 
-
-        }
     }
 }
