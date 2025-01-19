@@ -173,8 +173,8 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   timerText: {fileID: 48641314}
-  lose: {fileID: 5910908835885060656, guid: 074bd2076b334a84fb00ab028c6f624d, type: 3}
-  start: {fileID: 5910908835885060656, guid: 074bd2076b334a84fb00ab028c6f624d, type: 3}
+  lose: {fileID: 6656492317923785127, guid: 599e4c612c9ad494488e476991b9957c, type: 3}
+  start: {fileID: 6656492317923785127, guid: 599e4c612c9ad494488e476991b9957c, type: 3}
   time1: -1
 --- !u!114 &48641314
 MonoBehaviour:
@@ -775,6 +775,10 @@ PrefabInstance:
       value: 0
       objectReference: {fileID: 0}
     - target: {fileID: 1897176530171575716, guid: 40ed914838fb406448efc5685fd8f4f7, type: 3}
+      propertyPath: Win
+      value: 
+      objectReference: {fileID: 6656492317923785127, guid: 599e4c612c9ad494488e476991b9957c, type: 3}
+    - target: {fileID: 1897176530171575716, guid: 40ed914838fb406448efc5685fd8f4f7, type: 3}
       propertyPath: bar
       value: 
       objectReference: {fileID: 223853111}
@@ -866,6 +870,10 @@ PrefabInstance:
       propertyPath: m_LocalEulerAnglesHint.z
       value: 0
       objectReference: {fileID: 0}
+    - target: {fileID: 1897176530171575716, guid: 40ed914838fb406448efc5685fd8f4f7, type: 3}
+      propertyPath: Win
+      value: 
+      objectReference: {fileID: 6656492317923785127, guid: 599e4c612c9ad494488e476991b9957c, type: 3}
     - target: {fileID: 1897176530171575716, guid: 40ed914838fb406448efc5685fd8f4f7, type: 3}
       propertyPath: bar
       value: 
