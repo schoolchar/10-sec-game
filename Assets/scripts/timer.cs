@@ -27,7 +27,7 @@ public class timer : MonoBehaviour
         {
             start.SetActive(true);
         }
-        if (started == 1)
+        else 
         {
             start.SetActive(false);
         }
@@ -45,9 +45,8 @@ public class timer : MonoBehaviour
             }
             if (elapTime >= 1.99)
             {
-                started += 1;
                 time1 += 1;
-
+                started += 1;
 
 
             }
