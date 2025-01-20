@@ -9,7 +9,6 @@ using UnityEngine.UI;
 public class target : MonoBehaviour
 {
     public Image bar;
-    public GameObject Win;
     public static int targetCount = 0;
 
     // Start is called before the first frame update
@@ -27,8 +26,6 @@ public class target : MonoBehaviour
         Destroy(gameObject);
         if (targetCount == 5)
         {
-            // Instantiate the new object at a specified position and rotation
-            Instantiate(Win);
             bar.fillAmount = 1f;
         }
         if (targetCount == 1)
