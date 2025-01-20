@@ -3,6 +3,7 @@ using System.Collections.Generic;
 using UnityEngine;
 using TMPro;
 using Unity.VisualScripting;
+using UnityEngine.SceneManagement;
 
 public class timer : MonoBehaviour
 {
@@ -10,12 +11,19 @@ public class timer : MonoBehaviour
     private float time;
     private float elapTime;
     public int time1 = 0;
+    private target target;
+    public float winCon = 0;
 
+    void Start()
+    {
+        target = GetComponent<target>();
+    }
 
     // Update is called once per frame
     void Update()
     {
-
+        int value = target.targetCount;
+        winCon = value;
 
         if (time1 == 0)
         {
@@ -27,6 +35,11 @@ public class timer : MonoBehaviour
             if (elapTime >= 10.00)
             {
                 time1 += 1;
+                SceneManager.LoadScene(4);
+            }
+            if (winCon == 5)
+            {
+                SceneManager.LoadScene(3);
             }
         }
 

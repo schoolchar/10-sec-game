@@ -8,7 +8,7 @@ public class shooting : MonoBehaviour
     public GameObject shot;
 
     public float shotPower = 20f;
-
+    public AudioSource audioSource;
 
 
     // Start is called before the first frame update
@@ -23,6 +23,7 @@ public class shooting : MonoBehaviour
         if (Input.GetKeyDown(KeyCode.Mouse0))
         {
             shoot();
+            audioSource.Play();
         }
     }
 
